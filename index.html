@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="FannyHsiao">
+    <meta name="description" content="HTML和CSS的個人練習">
+    <title>個人練習 | HowLiving Tag</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>   
+    <!--全站選單-->
+    <div class="topbar">
+        <div class="topbar_list">    
+            <ul class="topbar_item">
+                <div class="dropdown">
+                    <a href="#" class="dropbtn">臺灣站<span class="dropbtn_icon"></span></a>
+                    <div class="dropdown_content">
+                        <a href="#">北美站</a>
+                    </div>
+                </div>
+                <li class="translate"><a href="#">简</a></li>
+                <li><a href="#">好物SHOP</a></li>
+                <li><a href="#">料理活動</a></li>
+                <li><a class="topbar_active" href="#">美味生活</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--分站選單-->
+    <div class="header">
+        <header class="header_content">
+            <!--LOGO-->
+            <div class="logo">
+                <a href="#"><img src="images/logo.png" alt="HowLiving" ></a>
+            </div>
+            <!--搜索框-->
+            <div class="header_search">
+                <form class="search_box">
+                    <input type="search" class="search_input" placeholder="輸入想找的食譜、料理活動、商品...">
+                    <button type="submit" class="search_button"></button>
+                </form> 
+            </div>            
+             <!--購物車&會員帳號-->
+            <div class="header_button">
+                <ul class="hearder_item">
+                    <li><a href="#"><span class="login"></span></a></li>
+                    <li><a href="#"><span class="cart"></span></a></li>
+                </ul>      
+            </div>
+            <!--選單-->
+             <div class="menu">
+                <nav>
+                    <div class="menu_item">                
+                        <ul class="menu_content">
+                            <li><a href="#">最新活動</a></li>
+                            <li class="video">
+                                <a href="#" class="video_title">影音食譜</a>
+                                <div class="dorpdown_maga">
+                                    <div class="mage">
+                                        <!--欄1-->
+                                        <div class="mage_row">
+                                            <ul class="mage_column">
+                                                <li class="mage_title">開飯時刻</li>
+                                                <li><a href="#">早餐</a></li>
+                                                <li><a href="#">早午餐</a></li>
+                                                <li><a href="#">午餐</a></li>
+                                                <li><a href="#">下午茶</a></li>
+                                                <li><a href="#">晚餐</a></li>
+                                                <li><a href="#">宵夜</a></li>
+                                            </ul>
+                                        </div>
+                                        <!--欄2-->
+                                        <div class="mage_row">
+                                            <ul>
+                                                <li class="mage_title">各式食譜</li>
+                                                <li><a href="#">台式</a></li>
+                                                <li><a href="#">中式</a></li>
+                                                <li><a href="#">西式</a></li>
+                                                <li><a href="#">日式</a></li>
+                                                <li><a href="#">韓式</a></li>
+                                                <li><a href="#">港式</a></li>
+                                                <li><a href="#">東南亞</a></li>
+                                                <li><a href="#">甜點飲品</a></li>
+                                            </ul>
+                                        </div>
+                                        <!--欄3-->
+                                        <div class="mage_row">
+                                            <ul>
+                                                <li class="mage_title">烹飪方式</li>
+                                                <li><a href="#">煎炒</a></li>
+                                                <li><a href="#">油炸</a></li>
+                                                <li><a href="#">川燙</a></li>
+                                                <li><a href="#">清蒸</a></li>
+                                                <li><a href="#">燉煮</a></li>
+                                                <li><a href="#">烘烤</a></li>
+                                                <li><a href="#">免煮</a></li>
+                                            </ul>
+                                        </div>
+                                        <!--欄4-->
+                                        <div class="mage_row">
+                                            <ul>
+                                                <li class="mage_title">食材大全</li>
+                                                <li><a href="#">雞肉</a></li>
+                                                <li><a href="#">豬肉</a></li>
+                                                <li><a href="#">牛羊</a></li>
+                                                <li><a href="#">海鮮</a></li>
+                                                <li><a href="#">蔬果</a></li>
+                                                <li><a href="#">豆類</a></li>
+                                                <li><a href="#">蛋奶</a></li>
+                                            </ul>
+                                        </div>
+                                        <!--欄5-->
+                                        <div class="mage_row">
+                                            <ul>
+                                                <li class="mage_title">節慶料理</li>
+                                                <li><a href="#">春節</a></li>
+                                                <li><a href="#">元宵節</a></li>
+                                                <li><a href="#">情人節<span class="header_highlight_1">人氣特輯</span></a></li>
+                                                <li><a href="#">端午節</a></li>
+                                                <li><a href="#">中秋節</a></li>
+                                                <li><a href="#">感恩節</a></li>
+                                                <li><a href="#">聖誕節</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="live">
+                                <a href="#" class="live_title">美食節目</a>
+                                <div class="dorpdown_cta">  
+                                    <div class="cta_content">
+                                        <!--欄1-->
+                                        <div class="cta_row">
+                                            <ul class="cta_column">
+                                                <li class="cta_title"><a href="#">大師來上菜<span class="header_highlight_2">週二</span></a></li>
+                                                <li><a href="#">跟米其林大廚鈴木彌平學人氣義式料理</a></li>
+                                                <li><a href="#">跟著國寶師傅風雨師學古早味點心</a></li>
+                                                <li><a href="#">世界甜點冠軍楊嘉明教你做蛋糕</a></li>
+                                            </ul>
+                                        </div>
+                                         <!--欄2-->
+                                        <div class="cta_row">
+                                            <ul class="cta_column">
+                                                <li class="cta_title"><a href="#">一秒變大廚<span class="header_highlight_2">週三</span></a></li>
+                                                <li><a href="#">最殺戲劇女神陳珮騏的暖心餐桌</a></li>
+                                                <li><a href="#">法國型男法比歐教你中法料理</a></li>
+                                                <li><a href="#">舞動廚房清冰箱創意料理</a></li>
+                                            </ul>
+                                        </div>
+                                        <!--欄3-->
+                                        <div class="cta_row">
+                                            <ul class="cta_column">
+                                                <li class="cta_title"><a href="#">美味生活選好物<span class="header_highlight_2">週四</span></a></li>
+                                                <li><a href="#">一機萬用&nbsp;下午茶點心輕鬆做</a></li>
+                                                <li><a href="#">人氣咖啡飲品點心輕鬆做</a></li>
+                                                <li><a href="#">春日夢幻蒂芬尼藍廚房</a></li>
+                                            </ul>
+                                         </div>
+                                        <!--欄4-->
+                                        <div class="cta_row">
+                                            <ul class="cta_column">
+                                                <li class="cta_title"><a href="#">百變過生活<span class="header_highlight_2">週五</span></a></li>
+                                                <li><a href="#">健康無添加的寶寶副食品自己做</a></li>
+                                                <li><a href="#">中藥食補你吃對了嗎？</a></li>
+                                                <li><a href="#">小孩偏食挑食有妙招</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!--廣告板位-->
+                                    <div class="cta_ad">
+                                        <img src="images/cta_ad.jpg" alt="即將播出" class="ad">
+                                        <p>【大師來上菜】義大利主廚親自來台直播！美味生活邀請米其林大廚Lino Sauro與品油師吳文玲協助翻譯，教你做傳統義大利美食。</p>
+                                        <button type="cta_ad" class="cta_button">通知我</button>
+                                        <p class="ad_tips">5月1日晚上8點開播!</p>
+                                    </div> 
+                                </div>             
+                            </li>
+                            <li><a href="#">好物開箱</a></li>
+                            <li><a href="#">美味名人</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+    </div>
+    <!--標題-->
+    <div class="tag">
+        <img src="images/tag.png" class="tag_icon">
+        <h1 class="tag_title">手作甜點</h1>
+        <p class="p_total">共有369筆關於"手作甜點"的文章</p>
+    </div>
+    <!--內容-->
+    <div class="seacher_list">
+        <div class="seacher_content">
+            <!--文章1-->
+            <div class="list_item">
+                <div class="item">
+                    <!--文章主圖-->
+                    <div class="picture">
+                        <a href="#"><img src="images/p2.jpg" alt="鮮奶油水果三明治" class="images"></a>
+                        <span class="item_highlight_1"><a href="#">人氣料理</a></span>
+                        <div class="item_icon"><img src="images/play.png" alt="play"></div>
+                    </div>
+                    <!--文章資訊-->
+                    <div class="item_information">
+                        <h2><a href="#" class="title">野餐必打卡人氣甜點【鮮奶油水果三明治】</a></h2>
+                        <div class="item_tag">
+                            <img src="images/s_tag.png" alt="tag">
+                            <a href="#">手作甜點</a>
+                            <a href="#">三明治</a>
+                            <a href="#">草莓季</a>
+                        </div>
+                        <div class="item_author">
+                            <a href="#"><img src="images/hl.png"></a>
+                            <a href="#">美味生活編輯部</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--文章2-->
+            <div class="list_item">
+                <div class="item">
+                    <!--文章主圖-->
+                    <div class="picture">
+                        <a href="#"><img src="images/p1.jpg" alt="大理石咕咕霍夫" class="images"></a>
+                        <div class="item_icon"><img src="images/play.png" alt="play"></div>
+                    </div>
+                    <!--文章資訊-->
+                    <div class="item_information">
+                        <h2><a href="#" class="title">奧地利經典甜點【大理石咕咕霍夫】</a></h2>
+                        <div class="item_tag">
+                            <img src="images/s_tag.png" alt="tag">
+                            <a href="#">手作甜點</a>
+                        </div>
+                        <div class="item_author">
+                            <a href="#"><img src="images/hl.png"></a>
+                            <a href="#">美味生活編輯部</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--文章3-->
+            <div class="list_item">
+                <div class="item">
+                    <!--文章主圖-->
+                    <div class="picture">
+                        <a href="#"><img src="images/p3.jpg" alt="復刻版義美小泡芙" class="images"></a>
+                        <span class="item_highlight_3"><a href="#">懷舊特輯</a></span>
+                        <div class="item_icon"><img src="images/play.png" alt="play"></div>
+                    </div>
+                    <!--文章資訊-->
+                    <div class="item_information">
+                        <h2><a href="#" class="title">一口一個吃不停【復刻版義美小泡芙】</a></h2>
+                        <div class="item_tag">
+                            <img src="images/s_tag.png" alt="tag">
+                            <a href="#">手作甜點</a>
+                            <a href="#">懷舊零嘴</a>
+                        </div>
+                        <div class="item_author">
+                            <a href="#"><img src="images/kt.png"></a>
+                            <a href="#">謝凱婷KT</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--文章4-->
+            <div class="list_item">
+                <div class="item">
+                    <!--文章主圖-->
+                    <div class="picture">
+                        <a href="#"><img src="images/p4.jpg" alt="玫瑰蘋果塔" class="images"></a>
+                        <span class="item_highlight_2"><a href="#">編輯精選</a></span>
+                        <div class="item_icon"><img src="images/play.png" alt="play"></div>
+                    </div>
+                    <!--文章資訊-->
+                    <div class="item_information">
+                        <h2><a href="#" class="title">法式經典【玫瑰蘋果塔】</a></h2>
+                        <div class="item_tag">
+                            <img src="images/s_tag.png" alt="tag">
+                            <a href="#">手作甜點</a>
+                            <a href="#">裝飾技巧</a>
+                        </div>
+                        <div class="item_author">
+                            <a href="#"><img src="images/cook_guide.png"></a>
+                            <a href="#">點Cook Guide</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--文章5-->
+            <div class="list_item">
+                <div class="item">
+                    <!--文章主圖-->
+                    <div class="picture">
+                        <a href="#"><img src="images/p6.jpg" alt="草莓優格千層蛋糕" class="images"></a>
+                        <span class="item_highlight_1"><a href="#">人氣料理</a></span>
+                        <div class="item_icon"><img src="images/play.png" alt="play"></div>
+                    </div>
+                    <!--文章資訊-->
+                    <div class="item_information">
+                        <h2><a href="#" class="title">紐約名牌蛋糕Lady M自己做【草莓優格千層蛋糕】</a></h2>
+                        <div class="item_tag">
+                            <img src="images/s_tag.png" alt="tag">
+                            <a href="#">手作甜點</a>
+                            <a href="#">草莓季</a>
+                        </div>
+                        <div class="item_author">
+                            <a href="#"><img src="images/hl.png"></a>
+                            <a href="#">美味生活編輯部</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--文章6-->
+            <div class="list_item">
+                <div class="item">
+                    <!--文章主圖-->
+                    <div class="picture">
+                        <a href="#"><img src="images/p5.jpg" alt="芍藥" class="images"></a>
+                        <div class="item_icon"><img src="images/play.png" alt="play"></div>
+                    </div>
+                    <!--文章資訊-->
+                    <div class="item_information">
+                        <h2><a href="#" class="title">盛開含苞均絕美！浪漫滿分韓式裱花【芍藥】</a></h2>
+                        <div class="item_tag">
+                            <img src="images/s_tag.png" alt="tag">
+                            <a href="#">手作甜點</a>
+                            <a href="#">料理訣竅</a>
+                            <a href="#">裝飾技巧</a>
+                        </div>
+                        <div class="item_author">
+                            <a href="#"><img src="images/anna.png"></a>
+                            <a href="#">Anna</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--文章7-->
+            <div class="list_item">
+                <div class="item">
+                    <!--文章主圖-->
+                    <div class="picture">
+                        <a href="#"><img src="images/p7.jpg" alt="草莓荷蘭寶貝鬆餅" class="images"></a>
+                        <span class="item_highlight_1"><a href="#">人氣料理</a></span>
+                        <div class="item_icon"><img src="images/play.png" alt="play"></div>
+                    </div>
+                    <!--文章資訊-->
+                    <div class="item_information">
+                        <h2><a href="#" class="title">草莓荷蘭寶貝鬆餅</a></h2>
+                        <div class="item_tag">
+                            <img src="images/s_tag.png" alt="tag">
+                            <a href="#">手作甜點</a>
+                            <a href="#">草莓季</a>
+                        </div>
+                        <div class="item_author">
+                            <a href="#"><img src="images/dog.png"></a>
+                            <a href="#">廚房一隻柴</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--文章8-->
+            <div class="list_item">
+                <div class="item">
+                    <!--文章主圖-->
+                    <div class="picture">
+                        <a href="#"><img src="images/p8.jpg" alt="楓糖燕麥瓦片" class="images"></a>
+                        <span class="item_highlight_3"><a href="#">懷舊特輯</a></span>
+                        <div class="item_icon"><img src="images/play.png" alt="play"></div>
+                    </div>
+                    <!--文章資訊-->
+                    <div class="item_information">
+                        <h2><a href="#" class="title">咬一口就像走入麥田的【楓糖燕麥瓦片】</a></h2>
+                        <div class="item_tag">
+                            <img src="images/s_tag.png" alt="tag">
+                            <a href="#">手作甜點</a>
+                            <a href="#">懷舊零嘴</a>
+                            <a href="#">快速料理</a>
+                        </div>
+                        <div class="item_author">
+                            <a href="#"><img src="images/hl.png"></a>
+                            <a href="#">美味生活編輯部</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--文章9-->
+            <div class="list_item">
+                <div class="item">
+                    <!--文章主圖-->
+                    <div class="picture">
+                        <a href="#"><img src="images/p9.jpg" alt="巧克力杏仁小橡實" class="images"></a>
+                        <div class="item_icon"><img src="images/play.png" alt="play"></div>
+                    </div>
+                    <!--文章資訊-->
+                    <div class="item_information">
+                        <h2><a href="#" class="title">【廚房一隻柴】甜點裝飾～巧克力杏仁小橡實</a></h2>
+                        <div class="item_tag">
+                            <img src="images/s_tag.png" alt="tag" class="s_tag">
+                            <a href="#">手作甜點</a>
+                            <a href="#">杯子蛋糕</a>
+                            <a href="#">裝飾技巧</a>
+                        </div>
+                        <div class="item_author">
+                            <a href="#"><img src="images/dog.png"></a>
+                            <a href="#">廚房一隻柴</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--文章10-->
+            <div class="list_item">
+                <div class="item">
+                    <!--文章主圖-->
+                    <div class="picture">
+                        <a href="#"><img src="images/p12.jpg" alt="玫瑰草莓果凍" class="images"></a>
+                        <div class="item_icon"><img src="images/play.png" alt="play"></div>
+                    </div>
+                    <!--文章資訊-->
+                    <div class="item_information">
+                        <h2><a href="#" class="title">美女與野獸浪漫甜點【玫瑰草莓果凍】</a></h2>
+                        <div class="item_tag">
+                            <img src="images/s_tag.png" alt="tag">
+                            <a href="#">手作甜點</a>
+                            <a href="#">消暑甜品</a>
+                            <a href="#">草莓季</a>
+                        </div>
+                        <div class="item_author">
+                            <a href="#"><img src="images/hl.png"></a>
+                            <a href="#">美味生活編輯部</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--文章11-->
+            <div class="list_item">
+                <div class="item">
+                    <!--文章主圖-->
+                    <div class="picture">
+                        <a href="#"><img src="images/p11.jpg" alt="巧克力酒瓶蛋糕" class="images"></a>
+                        <span class="item_highlight_2"><a href="#">編輯精選</a></span>
+                        <div class="item_icon"><img src="images/play.png" alt="play"></div>
+                    </div>
+                    <!--文章資訊-->
+                    <div class="item_information">
+                        <h2><a href="#" class="title">【Vita Dolce甜蜜生活手作甜點】巧克力酒瓶蛋糕</a></h2>
+                        <div class="item_tag">
+                            <img src="images/s_tag.png" alt="tag">
+                            <a href="#">手作甜點</a>
+                            <a href="#">手作禮物</a>
+                        </div>
+                        <div class="item_author">
+                            <a href="#"><img src="images/vita_dolce.png"></a>
+                            <a href="#">Vita Dolce</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--文章12-->
+            <div class="list_item">
+                <div class="item">
+                    <!--文章主圖-->
+                    <div class="picture">
+                        <a href="#"><img src="images/p10.jpg" alt="水果塔" class="images"></a>
+                        <span class="item_highlight_1"><a href="#">人氣料理</a></span>
+                        <div class="item_icon"><img src="images/play.png" alt="play"></div>
+                    </div>
+                    <!--文章資訊-->
+                    <div class="item_information">
+                        <h2><a href="#" class="title">運用清爽可口的水果綴飾，做成迷人【四種水果塔】</a></h2>
+                        <div class="item_tag">
+                            <img src="images/s_tag.png" alt="tag">
+                            <a href="#">手作甜點</a>
+                            <a href="#">裝飾技巧</a>
+                            <a href="#">消暑甜品</a>
+                            <a href="#">草莓季</a>
+                        </div>
+                        <div class="item_author">
+                            <a href="#"><img src="images/kt.png"></a>
+                            <a href="#">謝凱婷KT</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--看更多-->
+    <div class="item_more">
+         <button type="button" class="more">看更多</button>
+    </div>
+    <!--Footer-->
+    <footer class="footer">
+        <div class="footer_content">
+            <!--簡介-->
+            <div class="footer_left">
+                <p>【How Living 美味生活】是知名料理家「矽谷美味人妻」謝凱婷（Katie Hsieh）創辦的飲食生活網站，以公益精神為出發點，提倡有感生活、親子互動、飲食健康、食安概念。期待每個家庭都能從回家吃飯開始，在日常的飲食生活中找回情感的連結，從個人到社會，進行一場小小的餐桌革命，將溫暖擴散到整個世界。</p>
+            </div>
+            <!--關於美味生活-->
+            <div class="about_us">
+                <h4>關於美味生活</li>                
+                <ul>
+                    <li><a href="#">關於我們</a></li>
+                    <li><a href="#">美味團隊</a></li>
+                    <li><a href="#">加入我們</a></li>
+                    <li><a href="#">聯絡我們</a></li>
+                </ul>
+            </div>
+            <!--購物說明-->
+            <div class="about_us">
+                <h4>購物相關</li>                
+                <ul>
+                    <li><a href="#">購物須知</a></li>
+                    <li><a href="#">Club預約</a></li>
+                    <li><a href="#">售後服務</a></li>
+                </ul>
+            </div>
+            <!--社群-->
+            <div class="footer_right">
+                <img src="images/fb_plugin1.png" alt="fb_likebox">
+            </div>
+        </div>    
+        <!--版權聲明-->
+        <div class="copyright">
+            <div class="copyright_content">
+                <p>&copy;2016 How Living Inc. 美味生活股份有限公司 版權所有</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
